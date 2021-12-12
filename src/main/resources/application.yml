@@ -1,0 +1,19 @@
+spring:
+  kafka:
+    bootstrap-servers: ${kafka.broker}
+    producer:
+      properties:
+        max:
+          in:
+            flight:
+              requests:
+                per:
+                  connection: 1
+    consumer:
+      enable-auto-commit: false
+      auto-offset-reset: earliest
+      group-id: mp-adquirente
+      max.poll.interval.ms: 60000
+    listener:
+
+      ack-mode: RECORD
