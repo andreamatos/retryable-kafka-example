@@ -6,3 +6,7 @@
 ## Run kowl to send message.
 
 docker container run -d -p 8080:8880 -e KAFKA_BROKERS=10.104.15.5:9093 --add-host kfkh-mktplaceaz-1.dc.nova:10.104.15.5 quay.io/cloudhut/kowl:master
+
+## Reference.
+
+https://github.com/evgeniy-khist/spring-kafka-non-blocking-retries-and-dlt
