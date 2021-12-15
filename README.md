@@ -11,11 +11,7 @@ Adress: http://localhost:8080/topics
 ## Install Kafka Tool 2.0 to create producer
 Download: https://www.kafkatool.com/download.html
 
-<p align=center>
-  <img src="https://user-images.githubusercontent.com/42948627/146277985-6f795dd8-efe9-4803-a3a5-532cf73513d2.png" />
-</p>
-
-## Testing producer and consumer.
+## Testing producer and consumer
 
 Run springboot application and automatically create 4 tpoics,
 
@@ -26,7 +22,6 @@ To send(create a fake producer) you can create a mensage on kafkatool.
 This code is prepared to throw error in send attempts and send it to dlt;
 
 <img src="https://user-images.githubusercontent.com/42948627/146279480-2cfffb75-3c4b-49a0-ace3-154889eb252a.png" />
-         
           
 ## Reference
 https://github.com/evgeniy-khist/spring-kafka-non-blocking-retries-and-dlt
