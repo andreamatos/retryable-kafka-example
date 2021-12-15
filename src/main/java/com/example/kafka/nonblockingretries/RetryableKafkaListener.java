@@ -22,7 +22,7 @@ public class RetryableKafkaListener {
       autoCreateTopics = "false",
       topicSuffixingStrategy = TopicSuffixingStrategy.SUFFIX_WITH_INDEX_VALUE,
       exclude = ConnectException.class)
-  @KafkaListener(topics = "orders")
+  @KafkaListener(topics = "pagamentos")
   public void listen(String in, @Header(KafkaHeaders.RECEIVED_TOPIC) String topic) {
     log.info("retry " + in + " from " + topic);
     throw new NullPointerException("test");
@@ -31,5 +31,6 @@ public class RetryableKafkaListener {
   @DltHandler
   public void dlt(String in, @Header(KafkaHeaders.RECEIVED_TOPIC) String topic) {
     log.info("dlt " + in + " from " + topic);
+    throw new NullPointerException("test");
   }
 }

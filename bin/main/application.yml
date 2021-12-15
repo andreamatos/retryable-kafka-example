@@ -9,11 +9,15 @@ spring:
               requests:
                 per:
                   connection: 1
+                  
     consumer:
       enable-auto-commit: false
       auto-offset-reset: earliest
       group-id: mp-adquirente
       max.poll.interval.ms: 60000
+      
     listener:
-
       ack-mode: RECORD
+      
+server:
+  port: 9910
