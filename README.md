@@ -1,4 +1,4 @@
-## retryable-kafka-example
+## Retryable kafka example Api
 <p align=center>
   <img src="https://www.teahub.io/photos/full/277-2774413_website-under-construction-hd.jpg" />
 </p>
@@ -8,7 +8,7 @@ docker container run -d -p 8080:8080 -e KAFKA_BROKERS=10.104.15.5:9093 --add-hos
 
 Adress: http://localhost:8080/topics
 
-## Install Kafka Tool 2.0.9 to create content producer
+## Install Kafka Tool 2.0.9 to create producer
 Download here: https://www.kafkatool.com/download.html
 
 <p align=center>
