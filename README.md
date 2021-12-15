@@ -2,12 +2,17 @@
 ![image](https://user-images.githubusercontent.com/42948627/146280445-2d75ff8f-b2f7-43e3-9786-bea3ae005b52.png)
 
 ## Run kowl to see datailed topics contents
+```
 docker container run -d -p 8080:8080 -e KAFKA_BROKERS=10.104.15.5:9093 --add-host kafka-server:10.104.15.5 quay.io/cloudhut/kowl:master
+```
 
-Adress: http://localhost:8080/topics
+Address: http://localhost:8080/topics
+
 
 ## Install Kafka Tool 2.0 to create producer
+```
 Download: https://www.kafkatool.com/download.html
+```
 
 ## Testing producer and consumer
 
