@@ -1,4 +1,4 @@
-## Retryable kafka example Api
+## Retryable kafka Api
 ![image](https://user-images.githubusercontent.com/42948627/146280445-2d75ff8f-b2f7-43e3-9786-bea3ae005b52.png)
 
 ## Run kowl to see datailed topics contents
