@@ -1,7 +1,5 @@
 ## Retryable kafka example Api
-<p align=center>
-  <img src="https://www.teahub.io/photos/full/277-2774413_website-under-construction-hd.jpg" />
-</p>
+![image](https://user-images.githubusercontent.com/42948627/146280340-5f42d215-1a1a-4b16-b586-c850f215b92e.png)
 
 ## Run kowl to see datailed topics contents
   docker container run -d -p 8080:8080 -e KAFKA_BROKERS=10.104.15.5:9093 --add-host kafka-server:10.104.15.5 quay.io/cloudhut/kowl:master
