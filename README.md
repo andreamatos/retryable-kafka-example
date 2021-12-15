@@ -13,7 +13,7 @@ Download: https://www.kafkatool.com/download.html
 
 ## Testing producer and consumer
 
-Run springboot application and automatically create 4 tpoics,
+Run springboot application and automatically create 4 topics,
 
 <img src="https://user-images.githubusercontent.com/42948627/146279065-79b10fdb-66e8-4d99-90e0-28565be006d2.png" />
 
@@ -22,6 +22,9 @@ To send(create a fake producer) you can create a mensage on kafkatool.
 This code is prepared to throw error in send attempts and send it to dlt;
 
 <img src="https://user-images.githubusercontent.com/42948627/146279480-2cfffb75-3c4b-49a0-ace3-154889eb252a.png" />
-          
+
+<img src="https://user-images.githubusercontent.com/42948627/146279825-6bdb8b26-74c1-4424-acc3-e54dc16f7017.png" />
+
+
 ## Reference
 https://github.com/evgeniy-khist/spring-kafka-non-blocking-retries-and-dlt
