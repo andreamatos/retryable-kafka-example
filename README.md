@@ -12,7 +12,7 @@ Adress: http://localhost:8080/topics
 Download here: https://www.kafkatool.com/download.html
 
 <p align=center>
-  <img src="https://user-images.githubusercontent.com/42948627/146277633-8e160037-49e5-4d0c-9897-c86eb02328ab.png" />
+  <img src="https://user-images.githubusercontent.com/42948627/146277985-6f795dd8-efe9-4803-a3a5-532cf73513d2.png" />
 </p>
 
 ## Reference
