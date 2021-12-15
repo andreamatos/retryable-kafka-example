@@ -19,13 +19,13 @@ Download: https://www.kafkatool.com/download.html
 
 Run springboot application and automatically create 4 tpoics,
 
-<img src="https://user-images.githubusercontent.com/42948627/146279065-79b10fdb-66e8-4d99-90e0-28565be006d2.png" /p>
+<img src="https://user-images.githubusercontent.com/42948627/146279065-79b10fdb-66e8-4d99-90e0-28565be006d2.png" />
 
 To send(create a fake producer) you can create a mensage on kafkatool.
 
 This code is prepared to throw error in send attempts and send it to dlt;
 
-<img src="https://user-images.githubusercontent.com/42948627/146279480-2cfffb75-3c4b-49a0-ace3-154889eb252a.png" /p>
+<img src="https://user-images.githubusercontent.com/42948627/146279480-2cfffb75-3c4b-49a0-ace3-154889eb252a.png" />
          
           
 ## Reference
