@@ -5,7 +5,9 @@
 
 ## Run kowl to send message.
 
-docker container run -d -p 8080:8880 -e KAFKA_BROKERS=10.104.15.5:9093 --add-host kafka-server:10.104.15.5 quay.io/cloudhut/kowl:master
+docker container run -d -p 8080:8080 -e KAFKA_BROKERS=10.104.15.5:9093 --add-host kafka-server:10.104.15.5 quay.io/cloudhut/kowl:master
+
+Adress: http://localhost:8080/topics
 
 ## Reference.
 
